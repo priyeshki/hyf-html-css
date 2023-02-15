@@ -4,12 +4,14 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	background-color: black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
 .full {
 	width: 50%;
 	max-width: 1000px;
@@ -19,18 +21,21 @@ body {
 	display: grid;
 	grid-template-columns: 2fr 4fr;
 }
+
 .left {
 	position: initial;
 	background-color: lightblue;
 	padding: 20px;
 
 }
+
 .right {
 	position: initial;
 	background-color:white;
 	padding: 20px;
 
 }
+
 .image, .Contact, .Skills, .Language, .Hobbies, .title,
 .Objective, .Experience, .Education 
 {
@@ -39,7 +44,6 @@ body {
 .h2 {
 	background-color: lightblue;
 }
-
 
 .Contact{
     margin-bottom: 30px;
@@ -51,4 +55,6 @@ ul {
 .bullet{
     padding-left: 10px;
 }
-.h4{padding-top: 10px;}
+
+.h4{
+    padding-top: 10px;}
